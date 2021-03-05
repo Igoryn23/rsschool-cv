@@ -1,8 +1,9 @@
-##Igor Alekseev
+## Igor Alekseev
 
 ---
 
-###Contacts:
+### Contacts:
+
 E-mail: igoryn9702@gmail.com
 Github: Igoryn23
 Phone: hidden
@@ -10,12 +11,13 @@ Telegram: @igoryn97
 
 ---
 
-###About me
+### About me
+
 I am a beginner developer with no commercial experience. Now I learn on my own in the field of web. I would like to carry out my ideas. I hope change my life for the better in the future.
 
 ---
 
-###Skills
+###S kills
 
 - HTML
 - CSS
@@ -45,12 +47,13 @@ document.querySelector('.b-10').onclick = t10;
 
 ---
 
-###Education
+### Education
+
 Belarusian State University
 
 ---
 
-###English level
+### English level
 
 - Pre-intermedite
-But speaking skills is worse and it level is about elementary
+  But speaking skills is worse and it level is about elementary
