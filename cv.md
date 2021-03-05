@@ -17,7 +17,7 @@ I am a beginner developer with no commercial experience. Now I learn on my own i
 
 ---
 
-###S kills
+### Skills
 
 - HTML
 - CSS
@@ -55,5 +55,6 @@ Belarusian State University
 
 ### English level
 
-- Pre-intermedite
-  But speaking skills is worse and it level is about elementary
+- Pre-intermedite.
+
+But speaking skills is worse and it level is about elementary
