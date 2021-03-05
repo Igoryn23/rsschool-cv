@@ -53,3 +53,4 @@ Belarusian State University
 ###English level
 
 - Pre-intermedite
+But speaking skills is worse and it level is about elementary
