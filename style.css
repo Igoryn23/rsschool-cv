@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 30px 0;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(180, 226, 134);
+    padding: 10px 0;
+}
+
+.about {
+    margin: 20px 0;
+}
+
+.about__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__content {
+    width: 60%;
+}
+
+.about__img {
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.skills {
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.skills__title {
+    margin-bottom: 10px;
+}
+
+.skills__list {
+    padding-left: 30px;
+}
+
+.education {
+    margin: 30px 0;
+}
+
+.education__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education__code {
+    width: 50%;
+}
+
+.education__code-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.education__example {
+    text-align: center;
+}
+
+.github-subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+    position: relative;
+    display: block;
+}
+
+.github-subtitle::before {
+    content: '';
+    padding-left: 30px;
+    background: url('img/github.svg') no-repeat;
+}
+
+.codewars-subtitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.codewars-subtitle::before {
+    content: '';
+    padding-left: 30px;
+    background: url('img/codewars.svg') no-repeat;
+}
+
+.contacts-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer {
+    padding: 30px 0;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: darkseagreen;
+}
+
+.footer__create-title {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.rs-school {
+    font-size: 20px;
+}
+
+.rs-school:hover {
+    color: firebrick;
+}
