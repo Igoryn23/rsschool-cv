@@ -4,16 +4,16 @@
 
 ### Contacts:
 
-E-mail: igoryn9702@gmail.com
-Github: Igoryn23
-Phone: hidden
-Telegram: @igoryn97
+- E-mail: igoryn9702@gmail.com
+- Github: Igoryn23
+- Phone: hidden
+- Telegram: @igoryn97
 
 ---
 
 ### About me
 
-I am a beginner developer with no commercial experience. Now I learn on my own in the field of web. I would like to carry out my ideas. I hope change my life for the better in the future.
+I am a beginner developer from Belarus with no commercial experience. Now I learn on my own in the field of web. I would like to carry out my ideas in this field of activity. I hope change my life for the better in the future.
 
 ---
 
@@ -22,6 +22,7 @@ I am a beginner developer with no commercial experience. Now I learn on my own i
 - HTML
 - CSS
 - Javascript
+- Figma, Photoshop
 
 ### Code Example
 
@@ -55,6 +56,6 @@ Belarusian State University
 
 ### English level
 
-- Pre-intermedite.
+- Pre-intermediate.
 
-But speaking skills is worse and it level is about elementary
+Speaking skills is about elementary
