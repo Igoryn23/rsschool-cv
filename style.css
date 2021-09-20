@@ -129,6 +129,11 @@
     background: darkseagreen;
 }
 
+.footer__content {
+    width: 100px;
+    height: 100px;
+}
+
 .footer__create-title {
     font-size: 20px;
     font-weight: 500;
