@@ -7,93 +7,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Igor Alekseev</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/shades-of-purple.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
 </head>
 
 <body>
-    <div class="wrapper">
-        <header class="header">
+
+    <header class="header">
+        <div class="container">
             <div class="header__inner">
                 <div class="header__info">
                     <h1 class="header__title">Igor Alekseev</h1>
                     <span>Junior Developer</span>
                 </div>
-                <nav class="header__contacts">
-                    <h2 class="contacts">Contacts:</h2>
-                    <ul>
+                <nav class="header__nav">
+                    <h2 class="header__menu">Menu</h2>
+                    <ul class="menu-list">
                         <li>
-                            <a class="contacts-link" href="">E-mail: igoryn9702@gmail.com</a>
+                            <a class="menu-link" href="#about">about</a>
                         </li>
                         <li>
-                            <a class="contacts-link" href="#">Github: Igoryn23</a>
+                            <a class="menu-link" href="#skills">Skills</a>
                         </li>
                         <li>
-                            <a class="contacts-link" href="#">Phone: +375447282871</a>
+                            <a class="menu-link" href="#education">Education</a>
                         </li>
                         <li>
-                            <a class="contacts-link" href="#">Telegram: @igoryn97</a>
+                            <a class="menu-link" href="#example">Examples code</a>
                         </li>
                     </ul>
                 </nav>
             </div>
-        </header>
+        </div>
 
-        <section class="about">
-            <hr>
-            <div class="about__inner">
-                <div class="about__content">
-                    <h3 class="about__title">About me</h3>
-                    <p class="about__text">I am a beginner developer from Belarus with no commercial experience. Now I learn on my own in the field of web. I would like to carry out my ideas in this field of activity. I hope change my life for the better in the future.</p>
-                </div>
-                <div class="about__img">
-                    <img src="img/avatar.jpg" alt="cv-img">
-                </div>
-            </div>
-        </section>
-
-        <main class="skills">
-            <hr>
-            <h3 class="skills__title">SKILLS</h3>
-            <ul class="skills__list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>Git</li>
-                <li>Figma</li>
-            </ul>
-        </main>
-        <section class="education">
-            <hr>
-            <div class="education__inner">
-                <div class="education__universuty">
-                    <h3 class="education__university-title">Education</h3>
-                    <p>Belarusian State University ( Faculty of Radiophysics and Computer Technologies )</p>
-                    <br>
-                    <p class="english">Level English: Pre intermediate</p>
-                </div>
-                <div class="education__code">
-                    <h4 class="education__code-title">Examples code</h4>
-                    <div class="education__example">
-                        <p class="github-subtitle">Github:
-                            <a href="https://github.com/Igoryn23">https://github.com/Igoryn23</a>
-                        </p>
-                        <p class="codewars-subtitle">Codewars: <a href="https://www.codewars.com/users/Igoryn23">https://www.codewars.com/users/Igoryn23</a></p>
+    </header>
+    <main class="main">
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__content">
+                        <h2 class="about__title">About me</h2>
+                        <p class="about__text">I am a beginner developer from Belarus with no commercial experience. Now I learn on my own in the field of web. I would like to carry out my ideas in this field of activity. I hope change my life for the better in the future.</p>
+                    </div>
+                    <div class="about__img">
+                        <img src="img/avatar.jpg" alt="cv-img">
                     </div>
                 </div>
             </div>
         </section>
 
-        <footer class="footer">
+        <section class="skills" id="skills">
+            <div class="container">
+                <h4 class="skills__title">SKILLS</h4>
+                <ul class="skills__list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Git</li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+        </section>
+        <section class="education" id="education">
+            <div class="container">
+                <div class="education__universuty">
+                    <h3 class="education__university-title">Education</h3>
+                    <p>Belarusian State University ( Faculty of Radiophysics and Computer Technologies )</p>
+                    <br>
+                    <p>Additional courses: <a href="https://itgid.info/course/javascript-2">ItGid JavaScript v.2.0 </a></p>
+                    <br>
+                    <p class="english">Level English: Pre intermediate</p>
+                </div>
+
+            </div>
+        </section>
+        <section class="example" id="example">
+            <div class="container">
+                <div class="education__code">
+                    <h4 class="education__code-title">Examples code</h4>
+                    <div class="education__example">
+                        <p class="github-subtitle">Github:
+                            <a href="https://github.com/Igoryn23">Igoryn23</a>
+                        </p>
+                        <p class="codewars-subtitle">Codewars: <a href="https://www.codewars.com/users/Igoryn23">Igoryn23</a></p>
+                        <pre><code class="html">function findMissing(arr1, arr2) {
+  let res = 0;
+  arr1.sort(function(a,b){
+    return a-b;
+  })
+  arr2.sort(function(a,b){
+    return a-b;
+  })
+  for(let i = 0; i < arr1.length; i++){
+    if(arr1[i] !== arr2[i]){
+      res = arr1[i];
+      break;
+    }
+  }
+  return res;
+  }
+</code></pre>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
             <div class="footer__inner">
                 <div class="footer__create">
-                    <h5 class="footer__create-title">
+                    <article class="footer__create-title">
                         Create in 2021
-                    </h5>
+                    </article>
                 </div>
                 <div class="footer__content">
-                    <h3 class="rs-school">Rolling Scope</h3>
+                    <a href="https://rs.school/js/" class="rs-school">
+                        <img src="img/rs_school_js.svg" alt="rs-school"></a>
                 </div>
                 <div class="footer__contacts">
-                    <h2 class="contacts">Contacts:</h2>
+                    <h6 class="contacts">Contacts:</h6>
                     <ul>
                         <li>
                             <a class="contacts-link" href="#">E-mail: igoryn9702@gmail.com</a>
@@ -110,9 +148,9 @@
                     </ul>
                 </div>
             </div>
-        </footer>
-    </div>
-
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

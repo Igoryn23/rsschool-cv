@@ -4,7 +4,11 @@
     padding: 0;
 }
 
-.wrapper {
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
     max-width: 1230px;
     padding: 0 15px;
     margin: 0 auto;
@@ -12,13 +16,17 @@
 
 .header {
     padding: 30px 0;
+    background-color: rgb(83, 184, 99);
+}
+
+.header__menu {
+    color: rgb(218, 38, 38);
 }
 
 .header__inner {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    background-color: rgb(180, 226, 134);
+    justify-content: space-between;
     padding: 10px 0;
 }
 
@@ -53,6 +61,7 @@
 .skills {
     padding: 20px 0;
     margin: 0 auto;
+    background-color: rgb(136, 36, 70);
 }
 
 .skills__title {
@@ -85,6 +94,11 @@
 
 .education__example {
     text-align: center;
+}
+
+.example {
+    padding-bottom: 30px;
+    background-color: rgb(183, 223, 41);
 }
 
 .github-subtitle {
@@ -120,13 +134,18 @@
 
 .footer {
     padding: 30px 0;
+    background: darkseagreen;
 }
 
 .footer__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: darkseagreen;
+}
+
+.footer__content {
+    width: 100px;
+    height: 100px;
 }
 
 .footer__create-title {
@@ -141,4 +160,15 @@
 
 .rs-school:hover {
     color: firebrick;
+}
+
+.menu-list {
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.menu-list li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
 }
