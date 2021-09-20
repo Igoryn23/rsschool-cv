@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Igor Alekseev</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/shades-of-purple.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
 </head>
 
 <body>
@@ -85,9 +90,27 @@
                     <h4 class="education__code-title">Examples code</h4>
                     <div class="education__example">
                         <p class="github-subtitle">Github:
-                            <a href="https://github.com/Igoryn23">https://github.com/Igoryn23</a>
+                            <a href="https://github.com/Igoryn23">Igoryn23</a>
                         </p>
-                        <p class="codewars-subtitle">Codewars: <a href="https://www.codewars.com/users/Igoryn23">https://www.codewars.com/users/Igoryn23</a></p>
+                        <p class="codewars-subtitle">Codewars: <a href="https://www.codewars.com/users/Igoryn23">Igoryn23</a></p>
+                        <pre><code class="html">function findMissing(arr1, arr2) {
+  let res = 0;
+  arr1.sort(function(a,b){
+    return a-b;
+  })
+  arr2.sort(function(a,b){
+    return a-b;
+  })
+  for(let i = 0; i < arr1.length; i++){
+    if(arr1[i] !== arr2[i]){
+      res = arr1[i];
+      break;
+    }
+  }
+  return res;
+  }
+</code></pre>
+
                     </div>
                 </div>
             </div>
@@ -127,7 +150,6 @@
             </div>
         </div>
     </footer>
-
 </body>
 
 </html>

@@ -97,6 +97,7 @@ html {
 }
 
 .example {
+    padding-bottom: 30px;
     background-color: rgb(183, 223, 41);
 }
 
