@@ -93,22 +93,21 @@
                             <a href="https://github.com/Igoryn23">Igoryn23</a>
                         </p>
                         <p class="codewars-subtitle">Codewars: <a href="https://www.codewars.com/users/Igoryn23">Igoryn23</a></p>
-                        <pre><code class="html">function findMissing(arr1, arr2) {
-  let res = 0;
-  arr1.sort(function(a,b){
-    return a-b;
-  })
-  arr2.sort(function(a,b){
-    return a-b;
-  })
-  for(let i = 0; i < arr1.length; i++){
-    if(arr1[i] !== arr2[i]){
-      res = arr1[i];
-      break;
-    }
+                        <pre><code class="html">
+                            function arithmetic(a, b, operator){
+  if(operator === 'add'){
+  return a+b;
   }
-  return res;
+  if(operator === 'subtract'){
+  return a-b;
   }
+  if(operator === 'multiply'){
+  return a*b;
+  }
+  else{
+  return a/b;
+  }
+}
 </code></pre>
 
                     </div>
