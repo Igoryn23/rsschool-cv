@@ -4,10 +4,10 @@
 
 ### Contacts:
 
-- E-mail: igoryn9702@gmail.com
+- E-mail: email
 - Github: Igoryn23
 - Phone: hidden
-- Telegram: @igoryn97
+- Telegram: 
 
 ---
 
